@@ -17,7 +17,7 @@ const testData = [
     { name: "Sebastian Markbåge", avatar_url: "https://avatars2.githubusercontent.com/u/63648?v=4", company: "Facebook" },
 ];
 
-
+// Back to basic
 
 export default class App extends Component {
     static displayName = App.name;

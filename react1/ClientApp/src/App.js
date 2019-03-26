@@ -7,6 +7,7 @@ import { Counter } from './components/Counter';
 import { Power } from './components/Test';
 import { Form } from './components/Form';
 import { CardList } from './components/Card';
+import { CheckboxContainer } from './components/CheckboxContainer';
 
 import './css/css.css';
 //import axios from 'axios';
@@ -40,6 +41,7 @@ export default class App extends Component {
                 <Route path='/counter' component={Counter} />
                 <Route path='/fetch-data' component={FetchData} />                
                 <Route path='/Card' component={CardList} />
+                <Route path='/CheckboxContainer' component={CheckboxContainer} />
             </Layout>
 
         );

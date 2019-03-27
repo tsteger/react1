@@ -7,7 +7,10 @@ import { Counter } from './components/Counter';
 import { Power } from './components/Test';
 import { Form } from './components/Form';
 import { CardList } from './components/Card';
+
+import { Rubrik } from './components/Rubrik';
 import { CheckboxContainer } from './components/CheckboxContainer';
+import { OtherInformation } from './components/OtherInformation';
 
 import './css/css.css';
 //import axios from 'axios';
@@ -32,18 +35,36 @@ export default class App extends Component {
         return (
             <Layout>
                 <div>
-                    <Power />
+                    <Rubrik rubrik="Best&auml;llningsinformation" />
+                    <CheckboxContainer />
+                    <OtherInformation />
+                    
+                </div>
+
+                    {/*
+                        <Power />
                     <div className="header">{this.props.title}</div>
                     <Form />
                     <CardList profiles={this.state.profiles} />
-                </div>
+               
                 <Route exact path='/' component={Home} />
                 <Route path='/counter' component={Counter} />
                 <Route path='/fetch-data' component={FetchData} />                
                 <Route path='/Card' component={CardList} />
-                <Route path='/CheckboxContainer' component={CheckboxContainer} />
+                    <Route path='/CheckboxContainer' component={CheckboxContainer} />
+                    */}
+
             </Layout>
 
         );
     }
 }
+{/*
+ * Å Ä Ö codes if neaded
+å & aring;  &#229;
+ä & auml;   &#228;
+ö & ouml;   &#246;
+Å & Aring;  &#197;
+Ä & Auml;   &#196;
+Ö & Ouml;   &#214;
+*/}

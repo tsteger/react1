@@ -1,7 +1,7 @@
 ﻿import React, { Component } from 'react';
 export const CardList = (props) => (
     <div>
-        {props.profiles.map(profile => <Card {...profile} />)}
+        {props.profiles.map(profile => <Card key={profile.avatar_url}{...profile} />)}
     </div>
 );
 

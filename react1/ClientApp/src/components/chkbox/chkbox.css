@@ -1,0 +1,17 @@
+﻿
+
+
+.chk_box_text {
+    color: black;
+    margin:10px 10px 10px 10px;
+    
+}
+
+
+.chk_box_container {
+    padding: .5em;
+    margin: 0px 5px 5px 0px;
+    background-color: #eddab8;
+    white-space: nowrap;
+    width:550px;
+}

@@ -8,6 +8,8 @@ import { Power } from './components/Test';
 import { Form } from './components/Form';
 import { CardList } from './components/Card';
 
+import { VitecFetch } from './components/VitecFetch';
+
 import { Rubrik } from './components/Rubrik';
 import { CheckboxContainer } from './components/CheckboxContainer';
 import { OtherInformation } from './components/OtherInformation';
@@ -40,7 +42,7 @@ export default class App extends Component {
                     <OtherInformation />
                     
                 </div>
-
+                <Route path='/VitecFetch' component={VitecFetch} />  
                     {/*
                         <Power />
                     <div className="header">{this.props.title}</div>
